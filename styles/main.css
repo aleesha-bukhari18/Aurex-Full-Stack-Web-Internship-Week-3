@@ -200,18 +200,18 @@ body {
   min-height: 100vh;
 }
 
-/* Main content ko upar rehne do */
+
 main, .container, .content {
   flex: 1;
 }
 
-/* --- FOOTER FULL SCREEN --- */
+
 .footer {
   width: 100%;
   background: #0f172a;
   color: #fff;
   padding: 50px 0 20px 0;
-  margin-top: auto; /* hamesha neeche rahega */
+  margin-top: auto; 
   box-sizing: border-box;
 }
 .footer-grid {
