@@ -44,7 +44,7 @@ The website was tested on different screen sizes, including mobile, tablet, and 
 
 ## Live Deployment
 
-**Live Website:**
+**Live Website:**https://aleesha-bukhari18.github.io/Aurex-Full-StackWeb-Internship-Week-3/
 
 
 ## GitHub Repository
