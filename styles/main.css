@@ -188,6 +188,61 @@ button {
     margin-top: 15px;
 }
 
+/* Reset for full width */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content ko upar rehne do */
+main, .container, .content {
+  flex: 1;
+}
+
+/* --- FOOTER FULL SCREEN --- */
+.footer {
+  width: 100%;
+  background: #0f172a;
+  color: #fff;
+  padding: 50px 0 20px 0;
+  margin-top: auto; /* hamesha neeche rahega */
+  box-sizing: border-box;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.footer h3, .footer h4 { margin-bottom: 12px; }
+.footer-links a, .footer-social a {
+  display: block;
+  color: #cbd5e1;
+  text-decoration: none;
+  margin: 6px 0;
+  transition: 0.3s ease;
+}
+.footer-links a:hover, .footer-social a:hover {
+  color: #38bdf8;
+  transform: translateX(5px);
+}
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #334155;
+  margin-top: 30px;
+  padding: 15px 30px 0 30px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
 @media (max-width: 1024px) {
     main {
         width: 92%;
