@@ -49,7 +49,7 @@ The website was tested on different screen sizes, including mobile, tablet, and 
 
 ## GitHub Repository
 
-**Repository:**
+**Repository:** https://github.com/aleesha-bukhari18/Aurex-Full-Stack-Web-Internship-Week-3.git
 
 
 ## Week 3 Reflection
